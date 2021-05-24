@@ -79,3 +79,27 @@ h3 {
   background: url("https://i.pinimg.com/originals/65/a6/4b/65a64bbc2e2337e21798dd455533eeec.jpg");
   background-size: cover;
 }
+.Australia_cities {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 0;
+  padding: 3px;
+  background: url("https://i.insider.com/5c17d38801c0ea08470c8fb2?width=1000&format=jpeg&auto=webp");
+  background-size: cover;
+}
+.Australia_landmarks {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 5px;
+  padding: 3px;
+  background: url("https://3m4r5618el913vtfz3jffby9-wpengine.netdna-ssl.com/wp-content/uploads/Sydney-Opera-House-1024x603.jpg");
+  background-size: cover;
+}
+.Australia_people {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 0 0 5px;
+  padding: 3px;
+  background: url("https://www.nyfa.edu/student-resources/wp-content/uploads/2014/10/Hugh-Jackman.jpg");
+  background-size: cover;
+}
