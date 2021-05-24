@@ -20,8 +20,8 @@ nav {
 button {
   margin-bottom: 3em;
 }
-.country_image {
-}
+/* .country_image {
+} */
 .country_headline {
   text-align: center;
 }
@@ -32,11 +32,7 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-.listImg {
-  width: auto;
-  height: 150px;
-  object-fit: cover;
-}
+
 .cities {
   flex: 1;
   border: 1px solid black;
@@ -62,6 +58,8 @@ h3 {
   padding: 3px;
   background: url("https://static01.nyt.com/images/2021/04/22/world/00phuket-dispatch-1/00phuket-dispatch-1-mobileMasterAt3x.jpg");
   background-size: cover;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 .thaiLandmarks {
   flex: 1;
@@ -70,6 +68,8 @@ h3 {
   padding: 3px;
   background: url("https://www.pettitts.co.uk/images/Blog/19_incredible_landmarks_you_dont_want_to_miss_in_thailand/pixabay/khao_phing_kan_james_bond_island.jpg");
   background-size: cover;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 .thaiPeople {
   flex: 1;
@@ -78,6 +78,11 @@ h3 {
   padding: 3px;
   background: url("https://i.pinimg.com/originals/65/a6/4b/65a64bbc2e2337e21798dd455533eeec.jpg");
   background-size: cover;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+blockquote {
+  font-size: 0.85em;
 }
 .Australia_cities {
   flex: 1;
