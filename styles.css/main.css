@@ -20,8 +20,9 @@ nav {
 button {
   margin-bottom: 3em;
 }
-/* .country_image {
-} */
+.country_image {
+  max-height: 192px;
+}
 .country_headline {
   text-align: center;
 }
@@ -31,9 +32,9 @@ h3 {
 .list {
   display: flex;
   justify-content: space-between;
-  height: 500px;
+  min-height: 500px;
   color: #fff;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000;
 }
 
 .cities {
@@ -121,7 +122,6 @@ blockquote {
   background-size: cover;
   color: #fff;
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-
 }
 .fijiLandmarks {
   flex: 1;
@@ -132,7 +132,6 @@ blockquote {
   background-size: cover;
   color: #fff;
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-
 }
 .fijiPeople {
   flex: 1;
@@ -143,14 +142,13 @@ blockquote {
   background-size: cover;
   color: #fff;
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-
 }
 .brazil_image {
   flex: 1;
 }
 .brazil_cities {
   flex: 1;
-  flex-wrap: ;
+  flex-wrap: wrap;
   border: 1px solid black;
   margin: 0 0 0 5px;
   padding: 3px;
@@ -174,7 +172,6 @@ blockquote {
   background-size: cover;
 }
 
-
 .mex_cities {
   flex: 1;
   border: 1px solid black;
@@ -184,7 +181,6 @@ blockquote {
   background-size: cover;
   color: #fff;
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-
 }
 .mex_landmarks {
   flex: 1;
@@ -195,7 +191,6 @@ blockquote {
   background-size: cover;
   color: #fff;
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-
 }
 .mex_people {
   flex: 1;
@@ -206,6 +201,4 @@ blockquote {
   background-size: cover;
   color: #fff;
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-
 }
-
