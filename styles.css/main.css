@@ -1,0 +1,55 @@
+header {
+  display: flex;
+}
+.logo {
+  flex: 1;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+nav {
+  flex-wrap: wrap;
+}
+button {
+  margin-bottom: 3em;
+}
+/* .country_image {
+  border: 1px solid black;
+} */
+/* .country_headline {
+  we need dis?
+} */
+h3 {
+  text-align: center;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.cities {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 0;
+  padding: 3px;
+}
+.landmarks {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 5px;
+  padding: 3px;
+}
+.people {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 0 0 5px;
+  padding: 3px;
+}
