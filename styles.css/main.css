@@ -6,6 +6,11 @@ header {
   text-align: center;
 }
 
+.logo img {
+  width: 30em;
+  height: 15em;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -21,7 +26,9 @@ button {
   margin-bottom: 3em;
 }
 .country_image {
+
   max-height: 192px;
+
 }
 .country_headline {
   text-align: center;
