@@ -143,3 +143,37 @@ blockquote {
 
 }
 
+.mex_cities {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 0;
+  padding: 3px;
+  background: url("/images/mexico_city.jpeg");
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+}
+.mex_landmarks {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 5px;
+  padding: 3px;
+  background: url("/images/mex_temple.jpg");
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+}
+.mex_people {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 0 0 5px;
+  padding: 3px;
+  background: url("/images/canelo-alvarez.jpg");
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+}
+
