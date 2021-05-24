@@ -53,3 +53,12 @@ h3 {
   margin: 0 0 0 5px;
   padding: 3px;
 }
+
+.brazil_cities {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 0;
+  padding: 3px;
+  background: url("/images/brazil_copacabana.jpg");
+  background-size: cover;
+}
