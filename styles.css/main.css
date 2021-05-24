@@ -6,6 +6,11 @@ header {
   text-align: center;
 }
 
+.logo img {
+  width: 30em;
+  height: 15em;
+}
+
 main {
   display: flex;
   flex-direction: column;
