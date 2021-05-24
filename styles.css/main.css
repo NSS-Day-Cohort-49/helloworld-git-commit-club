@@ -6,6 +6,11 @@ header {
   text-align: center;
 }
 
+.logo img {
+  width: 30em;
+  height: 15em;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -20,8 +25,9 @@ nav {
 button {
   margin-bottom: 3em;
 }
-/* .country_image {
-} */
+.country_image {
+  max-height: 192px; 
+}
 .country_headline {
   text-align: center;
 }
@@ -150,7 +156,7 @@ blockquote {
 }
 .brazil_cities {
   flex: 1;
-  flex-wrap: ;
+  flex-wrap: wrap;
   border: 1px solid black;
   margin: 0 0 0 5px;
   padding: 3px;
