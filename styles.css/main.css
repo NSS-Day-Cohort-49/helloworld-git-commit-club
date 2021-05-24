@@ -13,7 +13,6 @@ main {
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  /* border: 1px solid black; */
 }
 nav {
   flex-wrap: wrap;
@@ -21,19 +20,22 @@ nav {
 button {
   margin-bottom: 3em;
 }
-/* .country_image {
-  border: 1px solid black;
-} */
-/* .country_headline {
-  we need dis?
-} */
+.country_image {
+}
+.country_headline {
+  text-align: center;
+}
 h3 {
   text-align: center;
 }
 .list {
   display: flex;
   justify-content: space-between;
-  flex: 1;
+}
+.listImg {
+  width: auto;
+  height: 150px;
+  object-fit: cover;
 }
 .cities {
   flex: 1;
@@ -54,11 +56,28 @@ h3 {
   padding: 3px;
 }
 
-.brazil_cities {
+.thaiCities {
   flex: 1;
   border: 1px solid black;
   margin: 0 5px 0 0;
   padding: 3px;
-  background: url("/images/brazil_copacabana.jpg");
+  background: url("https://static01.nyt.com/images/2021/04/22/world/00phuket-dispatch-1/00phuket-dispatch-1-mobileMasterAt3x.jpg");
   background-size: cover;
 }
+.thaiLandmarks {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 5px;
+  padding: 3px;
+  background: url("https://www.pettitts.co.uk/images/Blog/19_incredible_landmarks_you_dont_want_to_miss_in_thailand/pixabay/khao_phing_kan_james_bond_island.jpg");
+  background-size: cover;
+}
+.thaiPeople {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 0 0 5px;
+  padding: 3px;
+  background: url("https://i.pinimg.com/originals/65/a6/4b/65a64bbc2e2337e21798dd455533eeec.jpg");
+  background-size: cover;
+}
+
