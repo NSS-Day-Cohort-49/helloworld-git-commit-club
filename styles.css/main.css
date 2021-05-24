@@ -36,6 +36,9 @@ h3 {
 .list {
   display: flex;
   justify-content: space-between;
+  height: 500px;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000
 }
 
 .cities {
@@ -147,6 +150,35 @@ blockquote {
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 
 }
+.brazil_image {
+  flex: 1;
+}
+.brazil_cities {
+  flex: 1;
+  flex-wrap: ;
+  border: 1px solid black;
+  margin: 0 0 0 5px;
+  padding: 3px;
+  background: url("/images/brazil-copacabana.jpg");
+  background-size: cover;
+}
+.brazil_landmarks {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 0 0 5px;
+  padding: 3px;
+  background: url("/images/christ-the-redeemer.jpg");
+  background-size: cover;
+}
+.brazil_people {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 0 0 5px;
+  padding: 3px;
+  background: url("/images/anderson-silva.jpg");
+  background-size: cover;
+}
+
 
 .mex_cities {
   flex: 1;
