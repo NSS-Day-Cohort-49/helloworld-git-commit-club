@@ -79,3 +79,33 @@ h3 {
   background: url("https://i.pinimg.com/originals/65/a6/4b/65a64bbc2e2337e21798dd455533eeec.jpg");
   background-size: cover;
 }
+.fijiCities {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 0;
+  padding: 3px;
+  background: url("/images/Nadi.jpg");
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.fijiLandmarks {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 5px 0 5px;
+  padding: 3px;
+  background: url("/images/horseshoebay.jpg");
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.fijiPeople {
+  flex: 1;
+  border: 1px solid black;
+  margin: 0 0 0 5px;
+  padding: 3px;
+  background: url("/images/JimmySnuka.jpg");
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
